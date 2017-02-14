@@ -79,7 +79,7 @@ gulp.task('browserify', ['browserify-vendor'], () => {
 /*
   4.
  |--------------------------------------------------------------------------
- | Same as browserify task, but will also WATCH for changes and re-compile.
+ | Same as BROWSERIFY task, but will also WATCH for changes and re-compile.
  |--------------------------------------------------------------------------
  */
 gulp.task('browserify-watch', ['browserify-vendor'], () => {
