@@ -1,5 +1,7 @@
 import alt from '../alt';
 
+// https://github.com/ethan-deng/Redux-vs-Alt#actions
+
 class FooterActions {
   constructor() {
     // actions to hit the reducer store
