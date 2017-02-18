@@ -135,6 +135,10 @@ gulp.task('watch', () => {
   7.
  |--------------------------------------------------------------------------
  | RUNS ALL OF THE ABOVE and starts watching for file changes
+      - COMBINE all JS LIBRARIES (jquery, bootstrap) into a single file for fewer HTTP requests.
+      - Compile 3RD PARTY dependencies separately for faster performance.
+      - COMPILES only PROJECT FILES, excluding all third-party dependencies.
+      - Compile LESS stylesheets.
  |--------------------------------------------------------------------------
  */
 gulp.task('default', ['styles', 'vendor', 'browserify-watch', 'watch']);

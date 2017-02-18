@@ -23,7 +23,7 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(express.static(path.join(__dirname, 'public')));
 
-
+// most common are 200 and 404s...
 app.use((req, res) => {
   Router.match({ routes: routes.default, location: req.url }, (err, redirectLocation, renderProps) => {
     if (err) {

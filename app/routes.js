@@ -1,6 +1,6 @@
 // Router -> tells app which compoent to render at what route...
 
-import React form 'react';
+import React from 'react';
 import { Route } from 'react-router';
 import App from './components/App';
 import Home from './components/Home';
